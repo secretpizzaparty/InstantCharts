@@ -47,15 +47,7 @@
  	} else {
 
  		$content = '<img src="" style="width:' . esc_attr( $content_width ) . 'px;height:auto;border:0;display:none;" />';
-<<<<<<< HEAD
-<<<<<<< HEAD
     $content .= '<p class="hide-if-no-js"><a title="' . esc_attr__( 'Set sizing chart', 'instantcharts' ) . '" href="javascript:;" id="upload_sizingchart_image_button" id="set-sizingchart-image">' . esc_html__( 'Set sizing chart', 'instantcharts' ) . '</a></p>';
-=======
- 		$content .= '<p class="hide-if-no-js"><a title="' . esc_attr__( 'Add sizing chart', 'instantcharts' ) . '" href="javascript:;" id="upload_sizingchart_image_button" id="add-sizingchart-image" ' . esc_html__( 'Add sizing chart', 'instantcharts' ) . '</a></p>';
->>>>>>> origin/master
-=======
- 		$content .= '<p class="hide-if-no-js"><a title="' . esc_attr__( 'Add sizing chart', 'instantcharts' ) . '" href="javascript:;" id="upload_sizingchart_image_button" id="add-sizingchart-image" ' . esc_html__( 'Add sizing chart', 'instantcharts' ) . '</a></p>';
->>>>>>> origin/master
  		$content .= '<input type="hidden" id="upload_sizingchart_image" name="_sizingchart_cover_image" value="" />';
 
  	}
